@@ -1,8 +1,12 @@
 <?php ob_start() ?>
-<form name="formBusqueda" action="index.php?ctl=buscarPorNombre" method="post">
+<form name="formBusqueda" action="index.php?ctl=buscarCombinada" method="post">
+    <span>(puedes utilizar '%' como comodin)</span>
 	<label for="nombre">Nombre alimento:</label>
 	<input type="text" name="nombre" id="nombre" value="<?php echo $params['nombre'] ?>">
-	<span>(puedes utilizar '%' como comodin)</span>
+    <label for="nombre">Energía alimento:</label>
+	<input type="text" name="energia" id="energia" value="<?php echo $params['energia'] ?>">
+    <label for="nombre">Grasa alimento:</label>
+	<input type="text" name="grasa" id="grasa" value="<?php echo $params['grasa'] ?>">
 
 	<input type="submit" value="Buscar" class="nav-btn">
 </form>

@@ -16,9 +16,9 @@
 			<li><a href="index.php?ctl=inicio">Inicio</a></li>
 			<li><a href="index.php?ctl=listar">Ver alimentos</a></li>
 			<li><a href="index.php?ctl=insertar">Insertar alimento</a></li>
-			<li><a href="index.php?ctl=buscar">Buscar por nombre</a></li>
-			<li><a href="index.php?ctl=buscarAlimentosPorEnergia">Buscar por energía</a></li>
-			<li><a href="index.php?ctl=buscarAlimentosCombinada">Búsqueda combinada</a></li>
+			<li><a href="index.php?ctl=buscarPorNombre">Buscar por nombre</a></li>
+			<li><a href="index.php?ctl=buscarPorEnergia">Buscar por energía</a></li>
+			<li><a href="index.php?ctl=buscarCombinada">Búsqueda combinada</a></li>
 		</ul>
 	 </nav>
 
